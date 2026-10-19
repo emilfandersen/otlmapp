@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Additional sensitive files
+*.key
+secrets.json
+credentials.json
+service-account*.json
+
+# Allow a safe environment template
+!.env.example
